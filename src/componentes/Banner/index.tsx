@@ -15,3 +15,5 @@ export const Banner = ({enderecoImagem, textoAlternativo} :BannerProps) => {
         </header>
     )
 }
+
+export default Banner;

@@ -1,6 +1,11 @@
 import './CampoTexto.css'
 
-const CampoTexto = (props) => {
+interface CampoTextoProps {
+    alAlterado: (valor: string) => void 
+    placeholder: string 
+}
+
+const CampoTexto = (props: CampoTextoProps) => {
 
     const placeholderModificada = `${props.placeholder}...` 
 
